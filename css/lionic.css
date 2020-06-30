@@ -29,6 +29,11 @@ ul {
     margin: 0 auto;
 }
 
+.section-title {
+  font-size: 36px;
+  line-height: 1;
+}
+
 .button {
     height: 50px;
     padding: 0 16px;
@@ -80,4 +85,80 @@ ul {
 
 .header-link-active {
   color: #3172b9;
+}
+
+.first-section-container {
+  padding-top: 110px;
+  padding-bottom: 130px;
+  outline: 1px solid red;
+}
+
+.first-heading {
+  font-size: 40px;
+  line-height: 52px;
+  max-width: 50%;
+}
+
+.first-description {
+  margin-bottom: 30px;
+  max-width: 37%;
+
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.first-button {
+  margin-bottom: 10px;
+}
+
+.first-sequre {
+  font-size: 11px;
+  line-height: 1;
+}
+
+
+.do-container {
+  padding-top: 215px;
+  padding-bottom: 200px;
+  outline: 1px solid red;
+}
+
+.do-title {
+  margin-bottom: 25px;
+}
+
+.do-description {
+  margin-bottom: 50px;
+
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.do-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.do-item {
+  flex: 0 0 23%;
+  padding: 60px 25px;
+  outline: 1px solid red;
+}
+
+.do-item-image {
+  height: 68px;
+  width: auto;
+  margin-bottom: 30px;
+}
+
+.do-item-title {
+  margin-bottom: 15px;
+
+  font-size: 20px;
+  line-height: 21px;
+}
+
+.do-item-description {
+  font-size: 15px;
+  line-height: 21px;
 }
