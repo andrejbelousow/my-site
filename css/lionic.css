@@ -238,6 +238,11 @@ ul {
   background-color: #3172b9;
 }
 
+.do-item:hover .do-item-description,
+.do-item:hover .do-item-title {
+  color: white;
+}
+
 .do-item-image {
   height: 68px;
   width: auto;
