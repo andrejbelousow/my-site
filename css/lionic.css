@@ -238,10 +238,20 @@ ul {
   background-color: #3172b9;
 }
 
+.do-item:hover .do-item-title,
+.do-item:hover .do-item-description {
+  color: white;
+}
+
 .do-item-image {
   height: 68px;
   width: auto;
   margin-bottom: 30px;
+  fill: #3172b9;
+}
+
+.do-item:hover .do-item-image {
+  fill: white;
 }
 
 .do-item-title {
@@ -346,7 +356,7 @@ ul {
 
   font-size: 26px;
   font-weight: 600;
-  
+
   margin-top: 25px;
 }
 
@@ -369,7 +379,7 @@ ul {
 .contacts-item-text {
   margin: 0;
   max-width: 230px;
-  
+
   color: #787878;
   font-size: 14px;
   line-height: 25px;
