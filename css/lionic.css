@@ -79,6 +79,21 @@ ul {
   user-select: none;
 }
 
+.input {
+  border: 1px solid #dadada;
+  border-radius: 30px;
+  padding: 22px 28px 22px 28px;
+  max-width: 250px;
+  width: 100%;
+
+  font-size: 16px;
+  color: #787878;
+}
+
+.input:not(:last-child) {
+  margin-right: 20px;
+}
+
 .header {
     display: flex;
     height: 109px;
@@ -391,4 +406,30 @@ ul {
 
 .contacts-item-link:hover {
   color: #3172b9;
+}
+
+.section-form {
+  margin-top: 114px;
+
+  text-align: center;
+}
+
+.form-description {
+  margin-top: 24px;
+
+  font-size: 16px;
+}
+
+.form {
+  margin-top: 60px;
+  padding-bottom: 118px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.button-submit {
+  height: 100%;
+  padding: 20px 64px 22px 64px;
+  border-radius: 30px;
+
+  font-size: 16px;
 }
